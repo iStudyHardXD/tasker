@@ -1,0 +1,36 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+  user-select: none;
+}
+
+body{
+  background-color: rgb(27, 27, 39);
+}
+
+input{
+  outline: none
+}
+
+/* Общие свойства для всех скроллбаров */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+/* Стили для ползунка скроллбара */
+::-webkit-scrollbar-thumb {
+  background-color: rgb(25, 25, 59);
+  border-radius: 6px;
+}
+
+/* Стили для полосы скроллбара */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  border-radius: 6px;
+}
+
+/* Наведение и активное состояние ползунка скроллбара */
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(25, 25, 59);
+}

@@ -1,0 +1,76 @@
+/* Доска с тасками */
+.main_block{
+    margin: 0 auto;
+    margin-top: 120px;
+    width: 90%;
+    height: 500px;
+    background-color: rgb(19, 53, 53);
+    border-radius: 20px;
+    display: flex;
+    
+}
+
+.new_task {
+    width: 100%;
+    position: absolute;
+    top:  85px;
+}
+
+.new_task button{
+    float: right;
+    margin-right: 120px;
+    font-size: 18px;
+    border: none;
+    color: bisque;
+    background-color: rgb(27, 27, 39);
+    cursor: pointer;
+
+}
+
+
+/*  block_in_work
+    block_mission
+    block_view
+    block_ready */
+
+.block_in_work, .block_mission, .block_view, .block_ready {
+    margin:  auto;
+    width: 300px;
+    height: 90%;
+    background-color: rgb(7, 7, 19);
+    border-radius: 15px;
+    overflow-y: auto;
+
+    
+  
+}
+
+.block_in_work, .block_mission, .block_view, .block_ready, a{
+    text-decoration: none;
+    color: wheat;
+    font-size: 18px;
+    text-align: center;
+}
+
+.work_work{
+    margin: 10px;
+    margin: 10 auto;
+    width: 90%;
+    height: 200px;
+    background-color: brown;
+    border-radius: 15px;
+}
+.main_block {
+    /* Убирает вертикальный скроллбар */
+    overflow: hidden;
+  }
+
+/* новое */
+
+.block-title {
+    position: -webkit-sticky; /* Браузеры на основе WebKit, такие как Safari */
+    position: sticky;
+    top: 0; /* Заголовки будут "прилипать" к верху области просмотра при прокрутке */
+    z-index: 100; /* Указываем z-index, чтобы они оставались на переднем плане */
+    background-color: rgba(255, 255, 255, 0); /* прозрачный фон */
+}

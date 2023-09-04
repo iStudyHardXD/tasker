@@ -1,0 +1,26 @@
+header {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(12, 13, 37);
+  }
+  
+  header a{
+    text-decoration: none;
+  }
+  
+  header a:hover{
+    color: wheat;
+  }
+  
+  header .text_block{
+    color: white;
+    display: flex;
+    float: right;
+    padding-right: 30px;
+    padding-top: 30px;
+    color: blueviolet;
+    font-size: 24px;
+  }

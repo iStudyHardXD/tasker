@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/task.css">
+    <link rel="stylesheet" href="style/task_block.css">
+    <link rel="stylesheet" href="style/modal.css">
+    <title>Tasker</title>
+</head>
+<body>
+
+    <header>
+       <div class="text_block">
+        <a href="#">Доска с заданиями</a>
+       </div>
+    </header>
+
+    
+    
+
+    <div>
+        <div class="new_task"><button id="open_task">&#43; Добавить задачу</button></div>
+        <div class="main_block">
+            <div class="block_in_work">
+                <a href="#" class="block-title">задача</a>
+                <div class="work_work">
+
+                </div>
+                <div class="work_work">
+                    
+                </div>
+                <div class="work_work">
+                    
+                </div>
+                <div class="work_work">
+                    
+                </div>
+            </div>
+            <div class="block_mission">
+                <a href="#" class="block-title">в работе</a>
+                <div class="work_work">
+
+                </div>
+                <div class="work_work">
+                    
+                </div>
+                <div class="work_work">
+                    
+                </div>
+                <div class="work_work">
+                    
+                </div>
+            </div>
+            <div class="block_view">
+                <a href="#" class="block-title">к проверке</a>
+                <div class="work_work">
+
+                </div>
+                <div class="work_work">
+                    
+                </div>
+                <div class="work_work">
+                    
+                </div>
+                <div class="work_work">
+                    
+                </div>
+            </div>
+            <div class="block_ready">
+                <a href="#" class="block-title">готово</a>
+                <div class="work_work">
+
+                </div>
+                <div class="work_work">
+                    
+                </div>
+                <div class="work_work">
+                    
+                </div>
+                <div class="work_work">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <label for="">Проект</label>
+            <input type="text" placeholder="название проекта" id="project">
+            <label for="">Краткое описание</label>
+            <input type="text" placeholder="задача" id="short">
+            <label for="">Полное описание</label>
+            <textarea placeholder="Введите полное описание задачи" rows="4" cols="50" id="description"></textarea>
+            <button>создать</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+
+</body>
+</html>
